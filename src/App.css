@@ -1,0 +1,50 @@
+body {
+  background-image: url("static/bounties-background.png");
+  background-position: 50%;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.App-Container {
+  text-align: center;
+  margin: auto;
+  margin-top: 65px;
+  margin-bottom: 65px;
+  background-color: rgb(16, 14, 46);
+  border-radius: 12px;
+  color: white;
+  padding-top: 10px;
+  max-width: 1170px;
+}
+
+hr {
+  /* padding-bottom: 10px; */
+  width: 95%;
+  border-bottom: 1px solid white;
+}
+
+.col-header {
+  background-color: rgb(90, 72, 96);
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px 10px 2px 2px;
+  border-bottom-color: rgb(6, 219, 172);
+  border-bottom: 1px solid;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.droppable{
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-left: 0;
+  padding-right: 0;
+}
+
