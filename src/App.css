@@ -1,5 +1,5 @@
 body {
-  background-image: url("static/bounties-background.png");
+  background-image: url("assets/images/bounties-background.png");
   background-position: 50%;
   background-size: cover;
   height: 100%;
@@ -14,37 +14,93 @@ body {
   background-color: rgb(16, 14, 46);
   border-radius: 12px;
   color: white;
-  padding-top: 10px;
   max-width: 1170px;
 }
-
-hr {
-  /* padding-bottom: 10px; */
-  width: 95%;
-  border-bottom: 1px solid white;
+.header {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  font-size: 36px;
+  padding-top: 20px;
+  border-bottom: 1px solid #464a4a;
 }
 
-.col-header {
+.col {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.col-header-one {
   background-color: rgb(90, 72, 96);
   display: flex;
   flex-direction: column;
   margin: 10px;
   padding: 10px;
   border-radius: 10px 10px 2px 2px;
-  border-bottom-color: rgb(6, 219, 172);
-  border-bottom: 1px solid;
+  border-bottom: 4px #c4c4c4 solid;
+  width: 100%;
+}
+.col-header-two {
+  background-color: rgb(90, 72, 96);
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px 10px 2px 2px;
+  border-bottom: 4px #5f71d4 solid;
+  width: 100%;
+}
+.col-header-three {
+  background-color: rgb(90, 72, 96);
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px 10px 2px 2px;
+  border-bottom: 4px #a516b9 solid;
+  width: 100%;
+}
+.col-header-four {
+  background-color: rgb(90, 72, 96);
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px 10px 2px 2px;
+  border-bottom: 4px #06dbac solid;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.droppable{
+.droppable {
   display: flex;
   justify-content: center;
   color: white;
-  padding-left: 0;
-  padding-right: 0;
+  padding: 10px;
 }
 
+.col-droppable1 {
+  margin: 0px 10px 0px;
+  border-right: 1px solid #464a4a;
+  border-left: 1px solid #464a4a;
+}
+.col-droppable2 {
+  margin: 0px 10px 0px;
+  border-right: 1px solid #464a4a;
+  border-left: 1px solid #464a4a;
+}
+.col-droppable3 {
+  margin: 0px 10px 0px;
+  border-right: 1px solid #464a4a;
+  border-left: 1px solid #464a4a;
+}
+.col-droppable4 {
+  margin: 0px 10px 0px;
+  border-right: 1px solid #464a4a;
+  border-left: 1px solid #464a4a;
+}
+
+@media only screen and (max-width: 950px) {
+  .App-Container {
+    width: 1000px;
+  }
+}
